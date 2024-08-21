@@ -1,0 +1,37 @@
+.flashcard-container {
+  background-color: #d3b596; /* Change this to your desired color */
+  padding: 20px; /* Add padding for better spacing */
+  height: 100vh; /* Set height to fill the viewport */
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+#new-qn {
+  width: 450px;
+  padding: 5px;
+}
+
+#new-ans{
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.flash-btn {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #915a1a;
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #3e2509;
+  color: white;
+}

@@ -1,0 +1,31 @@
+#subject {
+    background-color: #d3b596; /* Change this to your desired color */
+    padding: 20px; /* Add padding for better spacing */
+    height: 100vh; /* Set height to fill the viewport */
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+#subject-input {
+    padding: 5px;
+    width: 250px;
+    margin: 10px;
+}
+
+#subject div h2{
+    font-size: 40px;
+    color: #3e2509;
+}
+
+.sub-button {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 120px;
+    margin-left: 30%;
+    padding: 13px 0 13px 0;
+    align-items: center; 
+    justify-content: center; 
+}

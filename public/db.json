@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "question": "What is React?",
+        "answer": "JavaScript Library",
+        "markedForReview": false
+    },
+    {
+        "id": 2,
+        "question": "What do you use for routing in React?",
+        "answer": "React Router",
+        "markedForReview": false
+    },
+    {
+        "id": 3,
+        "question": "What is used to style components in React?",
+        "answer": "CSS",
+        "markedForReview": false
+    },
+    {
+        "id": 4,
+        "question": "What is used to manage asynchronous data fetching?",
+        "answer": "Promises",
+        "markedForReview": false
+    },
+    {
+        "id": 5,
+        "question": "What is the method used to update component state?",
+        "answer": "setState",
+        "markedForReview": false
+    },
+    {
+        "id": 6,
+        "question": "What hook is used for managing state in functional components?",
+        "answer": "useState",
+        "markedForReview": false
+    },
+    {
+        "id": 7,
+        "question": "What method is used to handle side effects in class components?",
+        "answer": "componentDidMount",
+        "markedForReview": false
+    },
+    {
+        "id": 8,
+        "question": "What function is used to fetch data in functional components?",
+        "answer": "useEffect",
+        "markedForReview": false
+    },
+    {
+        "id": 9,
+        "question": "What function is used to pass data between components?",
+        "answer": "Props",
+        "markedForReview": false
+    },
+    {
+        "id": 10,
+        "question": "What is the function used to update the DOM?",
+        "answer": "render",
+        "markedForReview": false
+    },
+    {
+        "id": 11,
+        "question": "What method allows components to respond to changes?",
+        "answer": "Lifecycle",
+        "markedForReview": false
+    },
+    {
+        "id": 12,
+        "question": "What do you use to handle form inputs in React?",
+        "answer": "State",
+        "markedForReview": false
+    },
+    {
+        "id": 13,
+        "question": "What is the concept of managing global state in React?",
+        "answer": "Context",
+        "markedForReview": false
+    },
+    {
+        "id": 14,
+        "question": "What hook is used for context in functional components?",
+        "answer": "useContext",
+        "markedForReview": false
+    },
+    {
+        "id": 15,
+        "question": "What do you call reusable sections of code in React?",
+        "answer": "Components",
+        "markedForReview": false
+    },
+    {
+        "id": 16,
+        "question": "What do you call the data passed from parent to child component?",
+        "answer": "Props",
+        "markedForReview": false
+    },
+    {
+        "id": 17,
+        "question": "What hook manages component lifecycle in functional components?",
+        "answer": "useEffect",
+        "markedForReview": false
+    }
+  ]
+  

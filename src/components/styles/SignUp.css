@@ -1,0 +1,32 @@
+#signup {
+    background-color: #d3b596; /* Change this to your desired color */
+    padding: 20px; /* Add padding for better spacing */
+    height: 100vh; /* Set height to fill the viewport */
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+#signup h1{
+    font-size: 50px;
+    color: #3e2509;
+}
+
+#signup form{
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#signup form input{
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+#signup button{
+    align-self: center;
+    font-size: 18px;
+    margin-left: 40%;
+}

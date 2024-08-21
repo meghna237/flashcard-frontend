@@ -1,0 +1,32 @@
+#home {
+  background-color: #d3b596; /* Change this to your desired color */
+  padding: 20px; /* Add padding for better spacing */
+  height: 100vh; /* Set height to fill the viewport */
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+#home h1{
+    font-size: 50px;
+    color: #3e2509;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 10px; /* Add some space between buttons */
+    background-color: #784a18; /* Bootstrap primary color */
+    color: #F8F4E1; /* Text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .button:hover {
+    background-color: #301e08; /* Darker shade on hover */
+  }
