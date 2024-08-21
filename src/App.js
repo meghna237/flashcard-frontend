@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Flashcard from './components/Flashcard';
 import Subjects from './components/Subject';
 import Login from './components/Login';
