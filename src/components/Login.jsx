@@ -8,7 +8,7 @@ function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
-    const { setUserID } = useContext(UserContext);
+    const { setUserID, userID } = useContext(UserContext);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -52,10 +52,10 @@ function Login() {
                     value={password} 
                     onChange={(e) => setPassword(e.target.value)} 
                 /><br />
-                <button id="login-btn" class="button" type="submit">Login</button>
+                <button id="login-btn" className="button" type="submit">Login</button>
             </form><br />
             <p>Do not have an account? Sign Up below</p><br></br>
-            <button class="button" onClick={handleSignUpRedirect}>Sign Up</button>
+            <button className="button" onClick={handleSignUpRedirect}>Sign Up</button>
         </div>
     );
 }

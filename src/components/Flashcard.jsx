@@ -93,7 +93,7 @@ function Flashcard() {
             value={newAnswer} 
             onChange={(e) => setNewAnswer(e.target.value)} 
           />
-          <button class="button" onClick={handleAddFlashcard}>Add Flashcard</button>
+          <button className="button" onClick={handleAddFlashcard}>Add Flashcard</button>
         </div>
       </div><br /><br /><br />
 
@@ -107,10 +107,10 @@ function Flashcard() {
             <div key={flashcard._id} className="flashcard">
               <h2>{flashcard.question}</h2>
               {revealedIndex === index && <p>{flashcard.answer}</p>}
-              <button class="button flash-btn" onClick={() => handleReveal(index)}>
+              <button className="button flash-btn" onClick={() => handleReveal(index)}>
                 {revealedIndex === index ? 'Hide Answer' : 'Reveal Answer'}
               </button>
-              <button class="button flash-btn" onClick={() => handleDeleteFlashcard(flashcard._id)}>
+              <button className="button flash-btn" onClick={() => handleDeleteFlashcard(flashcard._id)}>
                 Delete
               </button>
             </div>

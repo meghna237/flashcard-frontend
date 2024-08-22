@@ -14,15 +14,12 @@ function Subjects() {
         const fetchSubjects = async () => {
             try {
                 const response = await axios.get(`https://flashcard-backend-gamma.vercel.app/api/subjects/${userID}`);
-
                 if (Array.isArray(response.data)) {
                     setSubjects(response.data);
                 } else {
                     setSubjects([]);
                 }
             } catch (error) {
-                console.error('Error fetching subjects:', error);
-                alert('Failed to load subjects. Please try again later.');
                 setSubjects([]);
             }
         };
@@ -70,12 +67,12 @@ function Subjects() {
                     value={newSubject} 
                     onChange={(e) => setNewSubject(e.target.value)} 
                 />
-                <button class="button" onClick={handleAddSubject}>Add Subject</button>
+                <button className="button" onClick={handleAddSubject}>Add Subject</button>
             </div>
             <div>
                 <h2>Select a Subject</h2>
                 {subjects.map((subject) => (
-                    <button class="button sub-button" key={subject._id} onClick={() => handleSubjectClick(subject._id)}>
+                    <button className="button sub-button" key={subject._id} onClick={() => handleSubjectClick(subject._id)}>
                         {subject.name}
                     </button>
                 ))}

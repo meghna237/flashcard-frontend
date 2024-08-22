@@ -4,7 +4,7 @@ import Flashcard from './components/Flashcard';
 import Subjects from './components/Subject';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-import { UserProvider } from './context/UserContext'; // Import UserProvider
+import { UserProvider } from './context/UserContext';
 
 function App() {
   return (
